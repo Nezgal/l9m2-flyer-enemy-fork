@@ -52,7 +52,7 @@ data:extend(
   {
     type = "unit",
     name = "small-flyer",
-    icon = "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-icon.png",
+    icon = "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-icon.png",
     icon_size = 64, icon_mipmaps = 1,
     flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
     max_health = 60, 
@@ -113,7 +113,7 @@ data:extend(
   {
     type = "unit",
     name = "medium-flyer",
-    icon = "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-icon.png",
+    icon = "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-icon.png",
     icon_size = 64, icon_mipmaps = 1,
     flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
     max_health = 120, 
@@ -174,7 +174,7 @@ data:extend(
   {
     type = "unit",
     name = "big-flyer",
-    icon = "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-icon.png",
+    icon = "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-icon.png",
     icon_size = 64, icon_mipmaps = 1,
     flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
     max_health = 480, 
@@ -235,7 +235,7 @@ data:extend(
   {
     type = "unit",
     name = "behemoth-flyer",
-    icon = "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-icon.png",
+    icon = "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-icon.png",
     icon_size = 64, icon_mipmaps = 1,
     flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
     max_health = 1920, 
@@ -296,7 +296,7 @@ data:extend(
   {
     type = "unit",
     name = "ultra-flyer",
-    icon = "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-icon.png",
+    icon = "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-icon.png",
     icon_size = 64, icon_mipmaps = 1,
     flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
     max_health = 9000, 

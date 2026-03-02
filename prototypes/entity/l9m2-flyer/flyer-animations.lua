@@ -1,6 +1,6 @@
 --Good luck trying to remove the supposed "optional" arguments, because the game will say otherwise.
 --Okay this ONE layer is the bare MINIMUM to achieve the game not complaining on startup.
---__l9m2-flyer-enemy__
+--__l9m2-flyer-enemy-fork__
 l9m2_flyer_scale = 1.1;
 function l9m2_flyerrunanimation(scale, tint1, tint2)
   return
@@ -10,10 +10,10 @@ function l9m2_flyerrunanimation(scale, tint1, tint2)
       {
         filenames =
         {
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-01.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-02.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-03.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-04.png"
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-01.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-02.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-03.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-04.png"
         },
         priority = "high",
 		--Where to count the 'end of a line'??
@@ -41,10 +41,10 @@ function l9m2_flyerrunanimation(scale, tint1, tint2)
 	  {
         filenames =
         {
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
         },
         priority = "high",
 		--Where to count the 'end of a line'??
@@ -80,10 +80,10 @@ function l9m2_flyerattackanimation(scale, tint1, tint2)
       {
         filenames =
         {
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-01.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-02.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-03.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-04.png"
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-01.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-02.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-03.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-04.png"
         },
         priority = "high",
 		--Where to count the 'end of a line'??
@@ -111,10 +111,10 @@ function l9m2_flyerattackanimation(scale, tint1, tint2)
 	  {
         filenames =
         {
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-		  "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+		  "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
         },
         priority = "high",
 		--Where to count the 'end of a line'??
@@ -151,10 +151,10 @@ function l9m2_smallflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-run-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-run-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-run-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-run-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-run-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-run-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-run-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-run-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -181,10 +181,10 @@ function l9m2_smallflyerrunanimation(scale)
         {
           filenames =
           {
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -220,10 +220,10 @@ function l9m2_smallflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-attack-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-attack-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-attack-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/small-flyer-attack-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-attack-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-attack-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-attack-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/small-flyer-attack-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -250,10 +250,10 @@ function l9m2_smallflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -291,10 +291,10 @@ function l9m2_mediumflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-run-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-run-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-run-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-run-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-run-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-run-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-run-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-run-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -321,10 +321,10 @@ function l9m2_mediumflyerrunanimation(scale)
         {
           filenames =
           {
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -360,10 +360,10 @@ function l9m2_mediumflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-attack-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-attack-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-attack-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/medium-flyer-attack-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-attack-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-attack-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-attack-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/medium-flyer-attack-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -390,10 +390,10 @@ function l9m2_mediumflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -433,10 +433,10 @@ function l9m2_bigflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-run-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-run-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-run-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-run-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-run-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-run-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-run-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-run-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -463,10 +463,10 @@ function l9m2_bigflyerrunanimation(scale)
         {
           filenames =
           {
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -502,10 +502,10 @@ function l9m2_bigflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-attack-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-attack-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-attack-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/big-flyer-attack-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-attack-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-attack-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-attack-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/big-flyer-attack-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -532,10 +532,10 @@ function l9m2_bigflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -576,10 +576,10 @@ function l9m2_behemothflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-run-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-run-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-run-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-run-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-run-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-run-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-run-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-run-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -606,10 +606,10 @@ function l9m2_behemothflyerrunanimation(scale)
         {
           filenames =
           {
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -645,10 +645,10 @@ function l9m2_behemothflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-attack-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-attack-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-attack-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/behemoth-flyer-attack-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-attack-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-attack-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-attack-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/behemoth-flyer-attack-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -675,10 +675,10 @@ function l9m2_behemothflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -718,10 +718,10 @@ function l9m2_ultraflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-run-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-run-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-run-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-run-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-run-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-run-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-run-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-run-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -733,25 +733,25 @@ function l9m2_ultraflyerrunanimation(scale)
           line_length = 8,
           --Sprite width and height
           --156
-          width = 156*2,
+          width = 156,
           --Sprite width and height
           --132
-          height = 132*2,
+          height = 132,
           --Frames in a given animation
           frame_count = 16,
           --Facing direction
           direction_count = 16,
           animation_speed = 0.125,
           shift = util.mul_shift(util.by_pixel(0, -60), scale),
-          scale = scale*l9m2_flyer_scale*0.5
+          scale = scale*l9m2_flyer_scale
         },
         {
           filenames =
           {
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
-              "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-01.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-02.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-03.png",
+              "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-run-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -787,10 +787,10 @@ function l9m2_ultraflyerrunanimation(scale)
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-attack-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-attack-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-attack-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/ultra-flyer-attack-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-attack-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-attack-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-attack-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/ultra-flyer-attack-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??
@@ -802,25 +802,25 @@ function l9m2_ultraflyerrunanimation(scale)
           line_length = 7,
           --Sprite width and height
           --156
-          width = 156*2,
+          width = 156,
           --Sprite width and height
           --132
-          height = 132*2,
+          height = 132,
           --Frames in a given animation
           frame_count = 14,
           --Facing direction
           direction_count = 16,
           animation_speed = 0.125,
           shift = util.mul_shift(util.by_pixel(0, -60), scale),
-          scale = scale*l9m2_flyer_scale*0.5,
+          scale = scale*l9m2_flyer_scale,
         },
         {
           filenames =
           {
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
-            "__l9m2-flyer-enemy__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-01.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-02.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-03.png",
+            "__l9m2-flyer-enemy-fork__/graphics/l9m2-flyer/flyer-attack-shadow-04.png"
           },
           priority = "high",
           --Where to count the 'end of a line'??

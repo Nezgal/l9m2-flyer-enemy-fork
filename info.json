@@ -1,9 +1,11 @@
 {
-  "name": "l9m2-flyer-enemy",
-  "version": "1.3.0",
-  "title": "The Flier - Spitter of the skies",
-  "author": "L9M2",
-  "description": "Just because you have walls, cliffs, and water, it doesn't mean you are safe. Adds a new enemy that spawns on the Spitter spawner called the Flier - an enemy that which is able to soar over the terrain and the tougher enemies could even spew fire. Mod settings contains options to enable fire abilities and spawning chance tweaks.",
+  "name": "l9m2-flyer-enemy-fork",
+  "version": "1.0",
+  "title": "The Flier - Spitter of the skies (less bright colors)",
+  "author": "Nezgal",
+  "description": "Just because you have walls, cliffs, and water, it doesn't mean you are safe. Adds a new enemy that spawns on the Spitter spawner called the Flier - an enemy that which is able to soar over the terrain and the tougher enemies could even spew fire. Mod settings contains options to enable fire abilities and spawning chance tweaks.
+
+  This mod is a fork of L9M2's mod and only changes the graphics to tone down the colors for better blending with the base game. All credit goes to them.",
   "factorio_version": "2.0",
   "dependencies": 
 	[
